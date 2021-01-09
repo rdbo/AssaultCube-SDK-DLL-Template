@@ -9,5 +9,6 @@
 #include <Windows.h>
 #include <WinSock2.h>
 #include <assaultcube/sdk.h>
+#include <libmem++/libmem.hpp>
 
 #endif

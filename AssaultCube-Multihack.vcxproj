@@ -97,6 +97,8 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>EFX-Util.lib;enet.lib;jpeg.lib;ogg.lib;OpenAL32.lib;SDL.lib;SDL_image.lib;vorbis.lib;vorbisfile.lib;winmm.lib;ws2_32.lib;zdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)include\assaultcube\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -111,6 +113,8 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>EFX-Util.lib;enet.lib;jpeg.lib;ogg.lib;OpenAL32.lib;SDL.lib;SDL_image.lib;vorbis.lib;vorbisfile.lib;winmm.lib;ws2_32.lib;zdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)include\assaultcube\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -129,6 +133,8 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>EFX-Util.lib;enet.lib;jpeg.lib;ogg.lib;OpenAL32.lib;SDL.lib;SDL_image.lib;vorbis.lib;vorbisfile.lib;winmm.lib;ws2_32.lib;zdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)include\assaultcube\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -147,6 +153,8 @@
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>EFX-Util.lib;enet.lib;jpeg.lib;ogg.lib;OpenAL32.lib;SDL.lib;SDL_image.lib;vorbis.lib;vorbisfile.lib;winmm.lib;ws2_32.lib;zdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)include\assaultcube\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -270,6 +278,20 @@
   <ItemGroup>
     <Text Include="assets\readme.txt" />
     <Text Include="build\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="include\assaultcube\lib\EFX-Util.lib" />
+    <Library Include="include\assaultcube\lib\enet.lib" />
+    <Library Include="include\assaultcube\lib\jpeg.lib" />
+    <Library Include="include\assaultcube\lib\ogg.lib" />
+    <Library Include="include\assaultcube\lib\OpenAL32.lib" />
+    <Library Include="include\assaultcube\lib\SDL.lib" />
+    <Library Include="include\assaultcube\lib\SDL_image.lib" />
+    <Library Include="include\assaultcube\lib\vorbis.lib" />
+    <Library Include="include\assaultcube\lib\vorbisfile.lib" />
+    <Library Include="include\assaultcube\lib\winmm.lib" />
+    <Library Include="include\assaultcube\lib\ws2_32.lib" />
+    <Library Include="include\assaultcube\lib\zdll.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

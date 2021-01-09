@@ -334,4 +334,18 @@
     <Text Include="build\readme.txt" />
     <Text Include="assets\readme.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="include\assaultcube\lib\EFX-Util.lib" />
+    <Library Include="include\assaultcube\lib\enet.lib" />
+    <Library Include="include\assaultcube\lib\jpeg.lib" />
+    <Library Include="include\assaultcube\lib\ogg.lib" />
+    <Library Include="include\assaultcube\lib\OpenAL32.lib" />
+    <Library Include="include\assaultcube\lib\SDL.lib" />
+    <Library Include="include\assaultcube\lib\SDL_image.lib" />
+    <Library Include="include\assaultcube\lib\vorbis.lib" />
+    <Library Include="include\assaultcube\lib\vorbisfile.lib" />
+    <Library Include="include\assaultcube\lib\winmm.lib" />
+    <Library Include="include\assaultcube\lib\ws2_32.lib" />
+    <Library Include="include\assaultcube\lib\zdll.lib" />
+  </ItemGroup>
 </Project>
